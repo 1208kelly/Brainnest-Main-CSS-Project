@@ -34,6 +34,10 @@
     float: right;
 }
 
+li {
+    padding: 0 20px;
+}
+
 #hero-main {
     margin: 110px 150px 50px 150px;
     width: 460px;
@@ -43,6 +47,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 0;
     color: #f9faf8;
 }
 
@@ -50,6 +55,7 @@ p {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: lighter;
+    margin-top: 0;
     color: #e5e7eb;
 }
 
@@ -62,4 +68,12 @@ button {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
+}
+
+#hero-image {
+    background-color: #e5e7eb;
+    margin: 40px 80px 20px 80px;
+    padding: 20px;
+    height: 200px;
+    width: 400px;
 }
