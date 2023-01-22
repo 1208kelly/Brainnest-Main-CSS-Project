@@ -1,13 +1,26 @@
 @font-face {
     font-family: "Roboto";
-    src: url(./fonts/Roboto-Regular.ttf);
+    src: url(./fonts/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-Light.ttf) format('truetype');
+    font-weight: lighter;
 }
 
 /* hero section */
 
 .header-hero {
     background-color: #1F2937;
-    margin: 50px 120px 20px 120px;
+    margin: 50px 160px 20px 160px;
     padding: 20px;
     height: 470px;
     width: auto;
@@ -19,6 +32,7 @@
 #header-logo {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
@@ -35,11 +49,11 @@
 }
 
 li {
-    padding-left: 20px;
+    padding: 4px 0 4px 25px;
 }
 
 #hero-main {
-    margin: 110px 150px 50px 150px;
+    margin: 110px 125px 50px 150px;
     width: 460px;
     float: left;
 }
@@ -66,7 +80,7 @@ button {
     border-radius: 4px;
     border: none;
     padding: 6px 32px;
-    margin: 12px 0;
+    margin-top: 20px;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -74,7 +88,7 @@ button {
 
 #hero-image {
     background-color: #636363;
-    margin: 110px 150px 50px 150px;
+    margin: 110px 150px 50px 125px;
     padding: 20px;
     height: 200px;
     width: 480px;
