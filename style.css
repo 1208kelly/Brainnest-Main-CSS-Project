@@ -26,7 +26,7 @@
     width: auto;
 }
 .header-nav{
-    margin: 0 150px 0 150px;
+    margin: 0 180px 0 180px;
 }
 
 #header-logo {
@@ -53,7 +53,7 @@ li {
 }
 
 #hero-main {
-    margin: 110px 125px 50px 150px;
+    margin: 110px 100px 50px 180px;
     width: 460px;
     float: left;
 }
@@ -88,7 +88,7 @@ button {
 
 #hero-image {
     background-color: #636363;
-    margin: 110px 150px 50px 125px;
+    margin: 110px 180px 50px 100px;
     padding: 20px;
     height: 200px;
     width: 480px;
