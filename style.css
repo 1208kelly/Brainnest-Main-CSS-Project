@@ -3,8 +3,14 @@
     src: url(./fonts/Roboto-Regular.ttf);
 }
 
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+
 .header-hero {
     background-color: #1F2937;
-    max-height: 50px;
-    max-width: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 400px;
+    width: auto;
 }
