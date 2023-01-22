@@ -2,3 +2,9 @@
     font-family: "Roboto";
     src: url(./fonts/Roboto-Regular.ttf);
 }
+
+.header-hero {
+    background-color: #1F2937;
+    max-height: 50px;
+    max-width: 200px;
+}
