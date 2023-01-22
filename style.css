@@ -12,7 +12,7 @@
     height: 470px;
     width: auto;
 }
-#header-nav{
+.header-nav{
     margin: 0 150px 0 150px;
 }
 
@@ -22,7 +22,7 @@
     color: #f9faf8;
 }
 
-#nav-list {
+.nav-list {
     display: inline-flex;
     list-style-type: none;
     margin: 0;
@@ -41,13 +41,14 @@ li {
 #hero-main {
     margin: 110px 150px 50px 150px;
     width: 460px;
+    float: left;
 }
 
-h1 {
+#hero-header {
     font-family: "Roboto", sans-serif;
     font-size: 48px;
     font-weight: bolder;
-    margin-bottom: 0;
+    margin: 0;
     color: #f9faf8;
 }
 
@@ -55,7 +56,7 @@ p {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: lighter;
-    margin-top: 0;
+    margin: 0;
     color: #e5e7eb;
 }
 
@@ -65,15 +66,26 @@ button {
     border-radius: 4px;
     border: none;
     padding: 6px 32px;
+    margin: 12px 0;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
 }
 
 #hero-image {
-    background-color: #e5e7eb;
-    margin: 40px 80px 20px 80px;
+    background-color: #636363;
+    margin: 110px 150px 50px 150px;
     padding: 20px;
     height: 200px;
     width: 400px;
+    float: right;
+}
+
+#image-header {
+    color: #e5e7eb;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 90px 0 90px 0;
 }
