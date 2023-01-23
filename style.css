@@ -16,7 +16,13 @@
     font-weight: 100;
 }
 
-/* header-hero section */
+/*@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-ThinItalic.ttf) format('truetype');
+    font-weight: lighter;
+}*/
+
+/*------------ header-hero section ------------*/
 
 .header-hero {
     background-color: #1F2937;
@@ -105,7 +111,7 @@ button {
     margin: 90px 0 90px 0;
 }
 
-/* information section*/
+/*------------ information section ------------*/
 
 .info-block {
     /*background-color: red;*/
@@ -134,7 +140,7 @@ button {
 
 .info-box {
     float: left;
-    margin: 10px 20px 50px 20px;
+    margin: 10px 25px 50px 25px
 }
 
 .info-box-subtext {
@@ -151,7 +157,35 @@ button {
 .info-box img {
     height: 140px;
     width: 140px;
-    border: solid 2px;
-    border-radius: 4px;
+    border: solid 4px;
+    border-radius: 6px;
     color: #3882f6;
+}
+
+/*------------ quote section ------------*/
+
+.quote-block {
+    background-color: #e5e7eb;
+    margin: 0 160px 20px 160px;
+    padding: 20px;
+    height: 470px;
+    width: auto;
+}
+
+#quote-text {
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    margin: 210px 0 30px 0;
+}
+
+#quote-author {
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
 }
