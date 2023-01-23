@@ -96,20 +96,25 @@ li {
 #hero-image {
     background-color: #636363;
     margin: 110px 180px 50px 100px;
-    padding: 10px;
-    height: 200px;
+    padding: 2px;
+    height: 212px;
     width: 480px;
     float: right;
 }
 
-#image-header {
+.hero-img-thumbnail {
+    height: 212px;
+    width: 480px;
+}
+
+/*#image-header {
     color: #e5e7eb;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: lighter;
     text-align: center;
     margin: 90px 0 90px 0;
-}
+}*/
 
 /*------------ information section ------------*/
 
@@ -133,7 +138,7 @@ li {
 #info-box-flex {
     position: relative;
     overflow: hidden;
-    height: 215px;
+    height: 225px;
     display: flex;
     justify-content: center;
 }
