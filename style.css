@@ -1,26 +1,26 @@
 @font-face {
     font-family: "Roboto";
     src: url(./fonts/Roboto-Regular.ttf) format('truetype');
-    font-weight: normal;
+    font-weight: 400;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url(./fonts/Roboto-Bold.ttf) format('truetype');
-    font-weight: bold;
+    src: url(./fonts/Roboto-Black.ttf) format('truetype');
+    font-weight: 900;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url(./fonts/Roboto-Light.ttf) format('truetype');
-    font-weight: lighter;
+    src: url(./fonts/Roboto-Thin.ttf) format('truetype');
+    font-weight: 100;
 }
 
-/* hero section */
+/* header-hero section */
 
 .header-hero {
     background-color: #1F2937;
-    margin: 50px 160px 20px 160px;
+    margin: 50px 160px 0 160px;
     padding: 20px;
     height: 470px;
     width: auto;
@@ -54,6 +54,7 @@ li {
 
 #hero-main {
     margin: 110px 100px 50px 180px;
+    height: 210px;
     width: 460px;
     float: left;
 }
@@ -89,7 +90,7 @@ button {
 #hero-image {
     background-color: #636363;
     margin: 110px 180px 50px 100px;
-    padding: 20px;
+    padding: 10px;
     height: 200px;
     width: 480px;
     float: right;
@@ -102,4 +103,65 @@ button {
     font-weight: lighter;
     text-align: center;
     margin: 90px 0 90px 0;
+}
+
+/* information section*/
+
+.info-block {
+    background-color: red;
+    margin: 0 160px 20px 160px;
+    padding: 20px;
+    height: 470px;
+    width: auto;
+}
+
+#info-header {
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*.info-box {
+    list-style-type: none;
+    height: 50px;
+    width: 50px;
+    border: solid 2px;
+    border-radius: 4px;
+    color: #3882f6;
+    background-color: transparent;
+}*/
+
+#info-box-flex {
+    position: relative;
+    overflow: hidden;
+    height: 215px;
+}
+
+.info-box {
+    float: left;
+    height: 140px;
+    width: 140px;
+    margin: 10px 10px 45px 10px;
+    border: solid 2px;
+    border-radius: 4px;
+    color: #3882f6;
+}
+
+.info-box-subtext {
+    position: absolute;
+    bottom: 0px;
+    width: 140px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+.info-box img {
+    width: 100px;
+    display: block;
 }
