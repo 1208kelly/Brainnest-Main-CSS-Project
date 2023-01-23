@@ -251,3 +251,25 @@ li {
     text-decoration: none;
     font-size: 16px;
 }
+
+/*------------ footer section ------------*/
+
+.footer-block {
+    background-color: #1F2937;
+    margin: 0 160px 20px 160px;
+    padding: 20px;
+    height: 60px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#footer-text {
+    color: #f9faf8;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+}
